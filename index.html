@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>超级玛丽 · 网页版 v0.1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <h1>SUPER MARIO · 网页版</h1>
+      <div class="keys">
+        <span><kbd>←</kbd><kbd>→</kbd> / <kbd>A</kbd><kbd>D</kbd> 移动</span>
+        <span><kbd>空格</kbd> / <kbd>↑</kbd> / <kbd>W</kbd> 跳跃</span>
+        <span><kbd>Shift</kbd> / <kbd>J</kbd> 跑</span>
+        <span><kbd>R</kbd> 重开</span>
+      </div>
+    </div>
+
+    <div class="screen">
+      <canvas id="game" width="256" height="240"></canvas>
+    </div>
+
+    <div class="hint">轻点跳约 1.5 格 · 长按跳约 4 格 · 全速跑跳约 5 格</div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
